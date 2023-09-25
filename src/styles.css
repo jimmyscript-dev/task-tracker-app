@@ -16,13 +16,13 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 2px solid rgb(136, 139, 141);
   padding: 30px;
   border-radius: 5px;
 }
 .btn {
   display: inline-block;
-  background: #000;
+  background: #000000;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -43,6 +43,7 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+  margin-bottom: 35px;
 }
 
 .form-control {

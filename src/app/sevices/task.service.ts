@@ -14,7 +14,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5000/tasks';
+  private apiUrl = 'https://task-data-g5c2.onrender.com/tasks';
   constructor(private http: HttpClient) { }
 
   getTasks(): Observable<Task[]> {
